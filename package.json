@@ -1,0 +1,37 @@
+{
+  "name": "prism-license-gen",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that writes official license texts (MIT, Apache-2.0, GPL-3.0 and 9 more) with your name and year, compares them, and helps you pick one.",
+  "bin": {
+    "licensegen": "bin/licensegen.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "licenses"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "license",
+    "open-source",
+    "mit-license",
+    "spdx",
+    "generator",
+    "devtools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-license-gen.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-license-gen#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
